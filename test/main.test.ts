@@ -12,8 +12,6 @@ test('Full stack', () => {
   expect(stack).toHaveResource('AWS::EC2::SecurityGroup');
   expect(stack).toHaveResource('AWS::SecretsManager::Secret');
   expect(stack).toHaveResource('AWS::RDS::DBCluster');
-  expect(stack).toHaveResource('AWS::WAFv2::IPSet');
-  expect(stack).toHaveResource('AWS::WAFv2::WebACL');
   expect(stack).toHaveResource('AWS::S3::Bucket');
   expect(stack).toHaveResource('Custom::CDKBucketDeployment');
   expect(stack).toHaveResource('AWS::CloudFront::CachePolicy');

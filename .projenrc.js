@@ -11,7 +11,7 @@ const project = new AwsCdkTypeScriptApp({
   ],
   deps: [
     'cdk-serverless-php-mpa',
-    'shx'
+    'shx',
   ],
   projectType: ProjectType.APP,
   release: false,

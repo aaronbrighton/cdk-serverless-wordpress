@@ -1,5 +1,5 @@
 {
-  "name": "Serverless-Wordpress",
+  "name": "cdk-serverless-wordpress",
   "scripts": {
     "clobber": "npx projen clobber",
     "compile": "npx projen compile",
@@ -16,15 +16,20 @@
     "deploy": "npx projen deploy",
     "destroy": "npx projen destroy",
     "diff": "npx projen diff",
+    "install-wordpress": "npx projen install-wordpress",
     "projen": "npx projen",
     "start": "npx projen start"
+  },
+  "author": {
+    "name": "Aaron Brighton",
+    "organization": false
   },
   "devDependencies": {
     "@types/jest": "^26.0.23",
     "@types/node": "^10.17.0",
     "@typescript-eslint/eslint-plugin": "^4.27.0",
     "@typescript-eslint/parser": "^4.27.0",
-    "aws-cdk": "^1.95.2",
+    "aws-cdk": "^1.109.0",
     "eslint": "^7.29.0",
     "eslint-import-resolver-node": "^0.3.4",
     "eslint-import-resolver-typescript": "^2.4.0",
@@ -33,14 +38,16 @@
     "jest-junit": "^12",
     "json-schema": "^0.3.0",
     "npm-check-updates": "^11",
-    "projen": "^0.22.15",
+    "projen": "^0.24.11",
     "ts-jest": "^27.0.3",
     "ts-node": "^9",
     "typescript": "^4.3.4"
   },
   "dependencies": {
-    "@aws-cdk/assert": "^1.95.2",
-    "@aws-cdk/core": "^1.95.2"
+    "@aws-cdk/assert": "^1.109.0",
+    "@aws-cdk/core": "^1.109.0",
+    "cdk-serverless-php-mpa": "^0.0.3",
+    "shx": "^0.3.3"
   },
   "bundledDependencies": [],
   "license": "Apache-2.0",

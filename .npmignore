@@ -9,6 +9,7 @@
 /.vscode
 /coverage
 /src
+/src/app
 /test
 /test-reports/
 /tsconfig.eslint.json
@@ -21,3 +22,4 @@ tsconfig.tsbuildinfo
 !/lib
 !/lib/**/*.d.ts
 !/lib/**/*.js
+!/src/app/php

@@ -15,6 +15,7 @@
 /coverage
 /dist
 /lib
+/src/app
 /test-reports/
 build/Release
 cdk.out/
@@ -43,7 +44,7 @@ yarn-error.log*
 !/LICENSE
 !/cdk.json
 !/package.json
-!/src
+!/src/app/php
 !/test
 !/tsconfig.eslint.json
 !/tsconfig.jest.json

@@ -19,7 +19,7 @@
     },
     {
       "name": "aws-cdk",
-      "version": "^1.95.2",
+      "version": "^1.109.0",
       "type": "build"
     },
     {
@@ -58,7 +58,6 @@
     },
     {
       "name": "projen",
-      "version": "^0.22.15",
       "type": "build"
     },
     {
@@ -76,12 +75,20 @@
     },
     {
       "name": "@aws-cdk/assert",
-      "version": "^1.95.2",
+      "version": "^1.109.0",
       "type": "runtime"
     },
     {
       "name": "@aws-cdk/core",
-      "version": "^1.95.2",
+      "version": "^1.109.0",
+      "type": "runtime"
+    },
+    {
+      "name": "cdk-serverless-php-mpa",
+      "type": "runtime"
+    },
+    {
+      "name": "shx",
       "type": "runtime"
     }
   ],

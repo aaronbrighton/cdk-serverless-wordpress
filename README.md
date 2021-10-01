@@ -2,7 +2,7 @@
 
 This is a proof-of-concept of leveraging [cdk-serverless-php-mpa](https://github.com/aaronbrighton/cdk-serverless-php-mpa) to WordPress serverlessly to AWS using AWS Lambda and some other services including Aurora Serverless. This was made possible in large-part due to the work done by the [Bref](https://bref.sh/) team to make running PHP on AWS Lambda a reality.
 
-## Archictecture
+## Architecture
 
 ![AWS Architecture Diagram](docs/complex-php-app-wordpress.svg)
 

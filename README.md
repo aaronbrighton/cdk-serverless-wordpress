@@ -77,7 +77,7 @@ $0.40/Secret/mo
 
 ### Total estimated (idle) cost per month
 
-:cry:, I'm open to suggestions on how to reduce costs, ideally without sacrificing *effecive* security.
+:cry:, I'm open to suggestions on how to reduce costs, ideally without sacrificing *effective* security.
 
 ```
 ~$14.60/mo VPC interface endpoints
